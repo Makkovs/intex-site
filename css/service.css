@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+.container {
+        width: 100%;
+        max-width:  1310px;
+        margin: 0 auto;
+}
+
+#h{
+    position: fixed;
+    left: 10px;
+    font-size: 80px;
+    user-select: none;
+}
+
+#link1{
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    color: rgb(48, 48, 48);
+}
+#link2{
+    position: fixed;
+    top: 100px;
+    left: 185px;
+    color: rgb(48, 48, 48);
+    text-decoration: line-through;
+}
+#link3{
+    position: fixed;
+    top: 100px;
+    left: 105px;
+    color: rgb(48, 48, 48);
+}
+
+#hh{
+    position: fixed;
+    top: 150px;
+    left: 30px;
+}
+
+#hhh{
+    position: fixed;
+    top: 150px;
+    left: 500px;
+}
+
+#hhhh{
+    position: fixed;
+    top: 400px;
+    left: 30px;
+}
+
+#tt{
+    position: fixed;
+    top: 200px;
+    left: 25px;
+    font-size: 20px;
+}
+
+#ttt{
+    position: fixed;
+    top: 200px;
+    left: 480px;
+    font-size: 20px;
+}
+
+#tttt{
+    position: fixed;
+    top: 450px;
+    left: 10px;
+    font-size: 20px;
+}
+
+table{
+    border-spacing: 25px 5px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: line-through;
+}
+
+.menu {
+    width: 100%;
+    height: 100vh;
+    max-width: 1310px;
+    background: rgb(165, 202, 211) 
+    center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
