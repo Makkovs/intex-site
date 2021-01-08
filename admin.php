@@ -11,13 +11,16 @@
         <div class="add">
         <form action="add.php" method="post">
             <p>
-                <h1>Добавити товар</h1>
+                <h1>Додати товар</h1>
                 <input id="name" placeholder="Назва товара" maxlength=30 name="name" type="text"><br>
                 <textarea id="desc" placeholder="Опис для товару" maxlength=200 name="desc" type="text"></textarea><br>
                 <input placeholder="Ціна товару" maxlength=15 name = "price" type="text"><br>
-                <input placeholder="Чи є у наявності" maxlength=30 name = "avail" type="text"><br>
+                <select name = "avail" type="text">
+                <option>Є в наявності</option>
+                <option>Немає в наявності</option>
+                </select><br>
                 <button class="btn1"
-                type="submit">Готово</button>
+                type="submit">Додати</button>
             </p>
         </form>
     </div>

@@ -13,7 +13,7 @@
         <div class="links">
         <a id = "link1" href ="index.php">Про нас</a>
         <a id = "link2" href ="service.php">Послуги</a>
-        <a id = "link3" href ="index.php">Товари</a>
+        <a id = "link3" href ="shop.php">Товари</a>
        </div>
        <img src="../images/viber.svg" width="70" height="70" id="viber">
        <div class="number1"><h1>+380930395434</h1></div>

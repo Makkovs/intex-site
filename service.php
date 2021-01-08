@@ -13,7 +13,7 @@
         <div class="links">
         <a id = "link1" href ="index.php">Про нас</a>
         <a id = "link2" href ="service.php">Послуги</a>
-        <a id = "link3" href ="index.php">Товари</a>
+        <a id = "link3" href ="shop.php">Товари</a>
         </div>
         <h1 id="hh">Друк</h1>
         <table border="0" id="tt">
