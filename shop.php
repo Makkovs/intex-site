@@ -21,10 +21,10 @@ if ($mysql->connect_error) {
         <div class="tovar">
         <img src="https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/g/t/gt_12_560.jpg" height = 200px>
         <div class="namet"><?php
-        echo $name; ?><br><?php
-        echo "Ціна: $price грн";?><br><?php
-        echo $descr;
-        ?></div></div><br>
+        echo $name; ?><br></div><div class="desct"><?php
+        echo $descr; ?><br><div class="pricet"><?php
+        echo "Ціна: $price грн";?><br></div><?php
+        ?></div><br></div>
     <?php
     };
     ?>
