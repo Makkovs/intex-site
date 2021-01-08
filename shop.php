@@ -16,10 +16,11 @@ if ($mysql->connect_error) {
 </head>
 <body>
     <?php
-    function tovar($name, $price, $descr) {
+    function tovar($name, $price, $descr, $urlz) {
         ?>
         <div class="tovar">
-        <img src="https://img.yakaboo.ua/media/catalog/product/cache/1/image/398x565/234c7c011ba026e66d29567e1be1d1f7/g/t/gt_12_560.jpg" height = 200px>
+        <?php
+        echo "<img src='$urlz' height = 200px>"?>       
         <div class="namet"><?php
         echo $name; ?><br></div><div class="desct"><?php
         echo $descr; ?><br><div class="pricet"><?php
@@ -41,11 +42,11 @@ if ($mysql->connect_error) {
     <div class="catalog">
     <?php
     for($ind = 1; ; $ind++){
-        $sql = ("SELECT `name`, `price`, `description` FROM `merchandise` WHERE id = $ind");
+        $sql = ("SELECT `name`, `price`, `description`, `url` FROM `merchandise` WHERE id = $ind");
         $result = $mysql->query($sql);
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
-            tovar($row["name"], $row["price"], $row["description"]);
+            tovar($row["name"], $row["price"], $row["description"], $row["url"]);
         }else break;
     };
     ?>
