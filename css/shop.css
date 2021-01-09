@@ -44,11 +44,12 @@ h1, h2, h3{
     text-decoration: line-through;
 }
 
-a{
+.links a {
     font-size: 20px;
     text-decoration: none;
 }
-a:hover{
+
+.links a:hover{
     text-decoration: line-through;
 }
 
@@ -60,6 +61,15 @@ a:hover{
     -webkit-background-size: cover;
     background-size: cover;
     z-index: 1;
+}
+
+#ta{
+    text-decoration: none;
+    color: black;
+}
+
+#ta:hover{
+    color:rgb(48, 48, 48)
 }
 
 .catalog {
@@ -75,7 +85,7 @@ a:hover{
 }
 
 .desct {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 220px;
 } 
 
@@ -85,8 +95,11 @@ a:hover{
 }
 
 
-
 .tovar{
     background: rgb(191, 206, 214);
     margin: 15px;
+}
+
+.tovar:hover{
+    background: rgb(167, 178, 184);
 }

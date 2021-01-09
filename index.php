@@ -7,7 +7,7 @@
  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-     <div class="menu">
+<div class="menu">
       <div class="container">
         <h1 id = "h">INTEX</h1>
         <div class="links">
