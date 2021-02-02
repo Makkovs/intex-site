@@ -3,6 +3,7 @@ body {
     font-family: 'Monsterrat', sans-serif;
     font-size: 15px;
     line-height: 1.6;
+    background-color: #669999;
 }
 
 *:after{
@@ -13,96 +14,45 @@ h1, h2, h3{
     margin: 0;
 }
 
-.container {
-        width: 100%;
-        max-width:  1310px;
-        margin: 0 auto;
-}
-
-#h{
-    position: fixed;
-    left: 10px;
-    font-size: 80px;
+.h{
+    padding: 0px 0px 0px 25px;
+    font-size: 60pt;
     user-select: none;
+    font-family: "Plantagenet Cherokee";
+    color: #ccccff;
 }
 
-#link1{
-    position: fixed;
-    top: 100px;
-    left: 20px;
-    color: rgb(48, 48, 48);
-}
-#link2{
-    position: fixed;
-    top: 100px;
-    left: 185px;
-    color: rgb(48, 48, 48);
-    text-decoration: line-through;
-}
-#link3{
-    position: fixed;
-    top: 100px;
-    left: 105px;
-    color: rgb(48, 48, 48);
+header{
+    height: 100px;
+    width: 1280px;
+    background: linear-gradient(to top, #339999, #006666);
 }
 
-#hh{
-    position: fixed;
-    top: 150px;
-    left: 30px;
+nav{
+    position: relative;
+    top: -28px;
+    height: 35px;
+    width: 1270px;
+    background: linear-gradient(to top, #006666, #339999);
+    padding: 15px 5px;
 }
 
-#hhh{
-    position: fixed;
-    top: 150px;
-    left: 500px;
+nav a{
+    text-decoration: none;
+    color: #cccccc;
+    margin-left: 50px;
 }
 
-#hhhh{
-    position: fixed;
-    top: 400px;
-    left: 30px;
-}
-
-#tt{
-    position: fixed;
-    top: 200px;
-    left: 25px;
-    font-size: 20px;
-}
-
-#ttt{
-    position: fixed;
-    top: 200px;
-    left: 480px;
-    font-size: 20px;
-}
-
-#tttt{
-    position: fixed;
-    top: 450px;
-    left: 10px;
-    font-size: 20px;
-}
-
-table{
-    border-spacing: 25px 5px;
+.content{
+    margin-top: 120px;
+    margin-left: 50px;
 }
 
 a{
-    text-decoration: none;
     font-size: 20px;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: line-through;
 }
 
-.menu {
-    position: fixed;
-    width: 100%;
-    height: 150px;
-    background: rgb(151, 169, 180);
-    -webkit-background-size: cover;
-    background-size: cover;
-    z-index: 1;
-}
